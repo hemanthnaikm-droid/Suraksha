@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Suraksha - Women Safety</title>
+
+<link rel="stylesheet" href="suraksha.css">
+<link rel="manifest" href="suraksha.json">
+</head>
+
+<body>
+
+<header>
+    <h1>🛡 SURAKSHA</h1>
+    <p>Women Safety & Empowerment</p>
+</header>
+
+<div class="container">
+
+    <button id="sosBtn">
+        🚨 Emergency SOS
+    </button>
+
+    <button onclick="shareLocation()">
+        📍 Share Live Location
+    </button>
+
+    <button onclick="fakeCall()">
+        ☎ Fake Call
+    </button>
+
+    <button onclick="window.location='pages/awareness.html'">
+        📚 Awareness
+    </button>
+
+    <button onclick="window.location='pages/report.html'">
+        📝 Register Complaint
+    </button>
+
+</div>
+
+<audio id="alarm">
+    <source src="https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3">
+</audio>
+
+<script src="suraksha.js"></script>
+
+</body>
+</html>
